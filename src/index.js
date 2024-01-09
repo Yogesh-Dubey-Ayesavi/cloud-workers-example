@@ -7,10 +7,10 @@
  *
  * Learn more at https://developers.cloudflare.com/workers/
  */
-// tocen = 0NiyfYQjVu3HYAQWMNC43422h8p4Xf78ehnEBKtx
+
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response('Hello !');   
+		return new Response('Hello!');   
 	},
 };
